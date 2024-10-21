@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Poppins", sans-serif; */
+/*  font-family: "Urbanist", sans-serif; */
+
+header{
+    background-color: #dfdfff;
+}
+header marquee{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+
+.contact-info{
+    list-style: none; 
+    padding: 0;
+}
+.contact-info li{
+    position: relative;
+    top: 10px;
+}
+
+.contact-info li a{
+    text-decoration: none;
+    color: black;
+}
+.contact-info li:nth-child(1){
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav li{
+    margin:0px 10px;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+#getquotes:hover{
+
+    background-color: blue !important;
+}
+.hero-description p{
+    font-size: 16px;
+     font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+}
+
+.hero-description h1{
+    font-size: 57px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 700;
+}
+.about-content h2{
+    font-size: 45px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.bg-gray{
+    background-color: #dfdfff;
+}
+
+.bg-gray h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Urbanist", sans-serif;
+}
+.bg-gray > p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.service h4{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: "Urbanist", sans-serif;
+}
+.service p{
+
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.service .card{
+    border-top: 4px solid;
+    transition: all 0.4s ease;
+}
+
+.service .card:hover{
+    transform: translateY(-13px);
+    border-bottom: 4px solid;
+}
+
+.why-choose-us img{
+
+    background: #dfdfff;
+    mask: url(../images/mask-shape-1.svg);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    margin-top: 100px;
+}
+.why-choose-us h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Urbanist", sans-serif;
+}
+.testimonial{
+    background-color: #dfdfff;
+    
+}
+.testimonial .t-desc{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.country{
+    position: relative;
+    left: 80px;
+    top: -26px;
+    font-weight: 600;
+    color: #646464;
+
+}
+
+.carousel-indicators [data-bs-target] {
+
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100%;
+    background-color: rgb(247, 60, 60) !important;
+   
+}
+
+.faq > h3{
+    font-size: 40px !important;
+    font-family: "Poppins", sans-serif; 
+   
+}
+.faq > p{
+ font-size: 18px;
+ font-family: "Urbanist", sans-serif;
+ font-weight: 500;
+ color: rgb(134, 128, 128);
+}
+.accordion-item{
+    border: none;
+    
+}
+.accordion-button{
+    background-color: white !important;
+    
+}
+.blog{
+    background-color: #fde19f;
+}
+
+.blog h3{
+    font-size: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+}
+
+.footer{
+    background-color:#231f40;
+    color: white;
+    font-family: "Poppins", sans-serif; 
+}
+.footer ul li{
+    font-size: 14px;
+    line-height: 30px;
+}
